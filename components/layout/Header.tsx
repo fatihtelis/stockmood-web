@@ -40,7 +40,13 @@ export function Header() {
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
             <a href="#" className="flex items-center gap-2 group">
-              <Image src="/icon.png" alt="StockMood" width={40} height={40} className="rounded-lg" />
+              <Image
+                src="/icon.png"
+                alt="StockMood"
+                width={48}
+                height={48}
+                className="rounded-lg"
+              />
               <span className="text-lg font-bold text-surface-50">
                 Stock<span className="text-brand-400">Mood</span>
               </span>
@@ -74,7 +80,11 @@ export function Header() {
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
             >
-              {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {isMobileMenuOpen ? (
+                <X className="w-6 h-6" />
+              ) : (
+                <Menu className="w-6 h-6" />
+              )}
             </button>
           </div>
         </div>

@@ -82,38 +82,38 @@ export function Hero() {
 
           {/* Phone mockup */}
           <motion.div
-            className="flex justify-center lg:justify-end relative"
+            className="flex justify-center lg:justify-center relative"
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2, ease: [0.21, 0.47, 0.32, 0.98] }}
           >
             {/* Floating badges */}
             <motion.div
-              className="absolute -left-8 top-12 z-10 hidden lg:block"
+              className="absolute right-[75%] top-16 z-10 hidden lg:block"
               animate={{ y: [-5, 5, -5] }}
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
             >
-              <div className="px-3 py-2 rounded-xl bg-bullish/10 border border-bullish/20 backdrop-blur-sm">
+              <div className="px-3 py-2 rounded-xl bg-bullish/10 border border-bullish/20 backdrop-blur-sm shadow-lg shadow-bullish/5">
                 <span className="text-xs font-medium text-bullish">AAPL: Bullish 62%</span>
               </div>
             </motion.div>
 
             <motion.div
-              className="absolute -right-6 bottom-40 z-10 hidden lg:block"
+              className="absolute -right-4 top-[45%] z-10 hidden lg:block"
               animate={{ y: [5, -5, 5] }}
               transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
             >
-              <div className="px-3 py-2 rounded-xl bg-bearish/10 border border-bearish/20 backdrop-blur-sm">
+              <div className="px-3 py-2 rounded-xl bg-bearish/10 border border-bearish/20 backdrop-blur-sm shadow-lg shadow-bearish/5">
                 <span className="text-xs font-medium text-bearish">TSLA: Bearish 52%</span>
               </div>
             </motion.div>
 
             <motion.div
-              className="absolute left-4 bottom-16 z-10 hidden lg:block"
+              className="absolute right-[50%] bottom-24 z-10 hidden lg:block"
               animate={{ y: [-3, 7, -3] }}
               transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
             >
-              <div className="px-3 py-2 rounded-xl bg-neutral-sentiment/10 border border-neutral-sentiment/20 backdrop-blur-sm">
+              <div className="px-3 py-2 rounded-xl bg-neutral-sentiment/10 border border-neutral-sentiment/20 backdrop-blur-sm shadow-lg shadow-neutral-sentiment/5">
                 <span className="text-xs font-medium text-neutral-sentiment">MSFT: Neutral 48%</span>
               </div>
             </motion.div>
