@@ -9,7 +9,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 lg:gap-12">
           {/* Brand */}
           <div className="md:col-span-2">
-            <a href="#" className="flex items-center mb-4">
+            <a href="/" className="flex items-center mb-4">
               <Image
                 src="/logo-white.svg"
                 alt="StockMood"
@@ -29,25 +29,25 @@ export function Footer() {
             <h4 className="text-sm font-semibold text-surface-200 mb-4">Product</h4>
             <ul className="space-y-3">
               <li>
-                <a href="#features" className="text-sm text-surface-400 hover:text-surface-200 transition-colors">
+                <a href="/#features" className="text-sm text-surface-400 hover:text-surface-200 transition-colors">
                   Features
                 </a>
               </li>
               <li>
-                <a href="#how-it-works" className="text-sm text-surface-400 hover:text-surface-200 transition-colors">
+                <a href="/#how-it-works" className="text-sm text-surface-400 hover:text-surface-200 transition-colors">
                   How It Works
                 </a>
               </li>
               {IS_APP_ONLINE && (
                 <li>
-                  <a href="#testimonials" className="text-sm text-surface-400 hover:text-surface-200 transition-colors">
+                  <a href="/#testimonials" className="text-sm text-surface-400 hover:text-surface-200 transition-colors">
                     Testimonials
                   </a>
                 </li>
               )}
               {IS_APP_ONLINE && (
                 <li>
-                  <a href="#download" className="text-sm text-surface-400 hover:text-surface-200 transition-colors">
+                  <a href="/#download" className="text-sm text-surface-400 hover:text-surface-200 transition-colors">
                     Download
                   </a>
                 </li>

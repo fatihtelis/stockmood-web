@@ -39,7 +39,7 @@ export function Header() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
-            <a href="#" className="flex items-center group">
+            <a href="/" className="flex items-center group">
               <Image
                 src="/logo-white.svg"
                 alt="StockMood"
@@ -65,7 +65,7 @@ export function Header() {
             {/* Desktop CTA */}
             {IS_APP_ONLINE && (
               <div className="hidden md:block">
-                <Button href="#download" variant="primary">
+                <Button href="/#download" variant="primary">
                   Download App
                 </Button>
               </div>
@@ -107,7 +107,7 @@ export function Header() {
               </a>
             ))}
             {IS_APP_ONLINE && (
-              <Button href="#download" variant="primary" size="large">
+              <Button href="/#download" variant="primary" size="large">
                 Download App
               </Button>
             )}

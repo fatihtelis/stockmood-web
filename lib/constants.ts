@@ -105,9 +105,9 @@ export const DEMO_SENTIMENT = {
 };
 
 export const NAV_LINKS = [
-  { label: "Features", href: "#features" },
-  { label: "How It Works", href: "#how-it-works" },
+  { label: "Features", href: "/#features" },
+  { label: "How It Works", href: "/#how-it-works" },
   ...(IS_APP_ONLINE
-    ? [{ label: "Testimonials", href: "#testimonials" }]
+    ? [{ label: "Testimonials", href: "/#testimonials" }]
     : []),
 ];
