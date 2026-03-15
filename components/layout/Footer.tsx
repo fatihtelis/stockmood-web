@@ -9,11 +9,14 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 lg:gap-12">
           {/* Brand */}
           <div className="md:col-span-2">
-            <a href="#" className="flex items-center gap-2 mb-4">
-              <Image src="/icon.png" alt="StockMood" width={40} height={40} className="rounded-lg" />
-              <span className="text-lg font-bold text-surface-50">
-                Stock<span className="text-brand-400">Mood</span>
-              </span>
+            <a href="#" className="flex items-center mb-4">
+              <Image
+                src="/logo-white.svg"
+                alt="StockMood"
+                width={160}
+                height={40}
+                className="h-8 w-auto"
+              />
             </a>
             <p className="text-surface-400 text-sm max-w-sm leading-relaxed">
               AI-powered stock sentiment analysis from Reddit, Twitter, and financial news.

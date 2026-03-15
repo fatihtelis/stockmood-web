@@ -39,17 +39,14 @@ export function Header() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
-            <a href="#" className="flex items-center gap-2 group">
+            <a href="#" className="flex items-center group">
               <Image
-                src="/icon.png"
+                src="/logo-white.svg"
                 alt="StockMood"
-                width={48}
-                height={48}
-                className="rounded-lg"
+                width={160}
+                height={40}
+                className="h-8 w-auto"
               />
-              <span className="text-lg font-bold text-surface-50">
-                Stock<span className="text-brand-400">Mood</span>
-              </span>
             </a>
 
             {/* Desktop nav */}
