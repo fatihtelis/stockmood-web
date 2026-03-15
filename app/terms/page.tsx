@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Terms of Service - StockMood",
@@ -12,14 +10,6 @@ export default function TermsOfService() {
   return (
     <main className="min-h-screen py-24 lg:py-32">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <Link
-          href="/"
-          className="inline-flex items-center gap-2 text-sm text-surface-400 hover:text-surface-200 transition-colors mb-8"
-        >
-          <ArrowLeft className="w-4 h-4" />
-          Back to Home
-        </Link>
-
         <h1 className="text-3xl lg:text-4xl font-bold text-surface-50 mb-2">
           Terms of Service
         </h1>
