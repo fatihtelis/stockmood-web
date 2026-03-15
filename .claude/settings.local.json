@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(npm run build:*)"
+    ]
+  }
+}
